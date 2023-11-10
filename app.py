@@ -1,7 +1,7 @@
 import telebot
 
 from config import keys, TOKEN
-from utils import ConvertionException, CryptoConverter
+from extensions import ConvertionException, CryptoConverter
 
 bot = telebot.TeleBot(TOKEN)
 # @bot.message_handler()
